@@ -1,0 +1,17 @@
+﻿.flag {
+    width: 2rem;
+    height: 1.5rem;
+    margin: auto;
+}
+
+::deep thead {
+    background-color: #d8d8d8;
+}
+
+::deep tbody tr {
+    background-color: rgba(0,0,0,0.05);
+}
+
+::deep tr:nth-child(even) {
+    background: rgba(0,0,255,0.1);
+}

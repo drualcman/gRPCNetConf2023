@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCNetConf2023.Server", "gRPCNetConf2023.Server\gRPCNetConf2023.Server.csproj", "{3E1B8378-0ADB-4B73-AFEF-77F1A310F304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCNetConf2023.Blazor", "gRPCNetConf2023.Blazor\gRPCNetConf2023.Blazor.csproj", "{79590A81-6011-419E-AE1E-89F887F39532}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E1B8378-0ADB-4B73-AFEF-77F1A310F304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1B8378-0ADB-4B73-AFEF-77F1A310F304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1B8378-0ADB-4B73-AFEF-77F1A310F304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1B8378-0ADB-4B73-AFEF-77F1A310F304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79590A81-6011-419E-AE1E-89F887F39532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79590A81-6011-419E-AE1E-89F887F39532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79590A81-6011-419E-AE1E-89F887F39532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79590A81-6011-419E-AE1E-89F887F39532}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90960BE2-6826-439C-BAB3-18BBC1670ED3}
+	EndGlobalSection
+EndGlobal

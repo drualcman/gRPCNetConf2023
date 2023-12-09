@@ -1,0 +1,15 @@
+﻿@page "/agenda"
+@using Microsoft.AspNetCore.Components.QuickGrid
+
+<h3>Agenda</h3>
+
+<div class="grid">
+<QuickGrid Items="@Response.Agendas.AsQueryable()">
+    <PropertyColumn Title="Speaker" Property="@(c => c.Speaker)" />
+    <TemplateColumn Title="Country" Align="Align.Center">
+        <img class="flag" src="flags/@(context.CountryFlag).svg" />
+    </TemplateColumn>
+    <PropertyColumn Title="Date" Property="@(c=> c.Date)" />
+    <PropertyColumn Title="Topic" Property="@(c=> c.Topic)" />
+</QuickGrid>
+</div>

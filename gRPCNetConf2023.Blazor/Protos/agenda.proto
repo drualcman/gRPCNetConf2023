@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCNetConf2023.Client";
+
+package agenda;
+
+service Agendas {
+	rpc GetAgendas (AgendasRequest) returns (AgendasResponse);
+}
+
+message AgendasRequest {}
+
+message AgendasResponse {
+	repeated AgendaResponse agendas = 1;
+}
+
+message AgendaResponse{
+	string speaker = 1;
+	string country_flag = 2;
+	string date = 3;
+	string topic = 4;
+}
+
